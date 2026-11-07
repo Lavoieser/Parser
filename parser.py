@@ -1,5 +1,5 @@
 import nltk
-nltk.download()
+#nltk.download()
 import sys
 
 TERMINALS = """

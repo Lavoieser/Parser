@@ -1,5 +1,5 @@
 import nltk
-# nltk.download()
+nltk.download()
 import sys
 
 TERMINALS = """
@@ -80,7 +80,7 @@ def preprocess(sentence):
         if any(c.isalpha() for c in word)
     ])
 
-    return contents      
+    return contents
 
     #raise NotImplementedError
 
